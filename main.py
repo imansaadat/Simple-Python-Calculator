@@ -1,14 +1,18 @@
 def add(num1,num2):
-   print(f"number1 + number2 = {num1 + num2}")
+   total = num1 + num2
+   print(f"number1 + number2 = {total}")
 
 def subtract(num1,num2):
-   print(f"number1 - number2 = {num1 - num2}")
+   total = num1 - num2
+   print(f"number1 - number2 = {total}")
 
 def multiply(num1,num2):
-   print(f"number1 * number2 = {num1 * num2}")
+   total = num1 * num2
+   print(f"number1 * number2 = {total}")
 
 def divide(num1,num2):
-   print(f"number1 / number2 = {num1 / num2}")  
+   total = num1 / num2
+   print(f"number1 / number2 = {total}")  
 
 def calculator():
    num1 = int(input("please enter your first number \n"))
